@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name:  hello-pod
 spec:
-  #hostNetwork: true #enable to access the container from external world
+  hostNetwork: true #enable to access the container from external world
   containers:
     - image:  nginx
       name:  my-nginx
